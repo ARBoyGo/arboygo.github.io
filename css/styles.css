@@ -1,0 +1,75 @@
+
+body {
+  background-color: #000000;
+}
+/*
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #4389d8;
+  border-width: 5px;
+  width: 5%;
+}
+*/
+img {
+  height: 300px;
+}
+h1,h2,h3,h4,h5,h6,a {
+  color: #eb4f4f;
+}
+p,tr,ul {
+  color: #4389d8;
+}
+  
+i {
+  font-size: 25px;
+}
+
+.aboutme {
+  font-size: 20px;
+}
+
+.cm {
+  float: left;
+  width: 50%;
+}
+
+.about-mer:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.profile  {
+  position: absolute;
+  top: 20%;    
+}
+
+.ARBoyGo-color {
+  color: #eb4f4f;
+}
+
+.ARBoyGo-link {
+  color: #eb4f4f;
+}
+
+.alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
