@@ -1,3 +1,45 @@
+:root {
+  /* Colors */
+--brand-color : #eb4f4f;
+--brand-secondary-color : darkred;
+}
+
+
+
+/*
+ * Id's
+ */
+
+#active_page {
+  color: var(--brand-color);
+}
+
+#brand {
+  color: var(--brand-color);
+}
+
+#brand-color {
+  color: var(--brand-color);
+}
+
+#brand-link:link {  
+  color: var(--brand-color);
+  text-decoration: none;
+}
+
+#brand-link:visited {
+  color: var(--brand-color);
+}
+
+#brand-link:hover {
+  color: var(--brand-secondary-color);
+}
+
+#brand-highlight {
+  color: var(--brand-color);
+}
+
+
 /*
  * Globals
  */
