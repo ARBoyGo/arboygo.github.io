@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en" class="h-100">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Site">
+    <meta name="author" content="AR Designer">
+    <title>ARBoyGo</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="start.css">
+    
+
+<link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body class="d-flex h-100 text-center text-white bg-black">
+    
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+  <header class="mb-auto">
+    <div>
+      <h3 class="float-md-start mb-0" id="brand">ARBoyGo</h3>
+      <nav class="nav nav-masthead justify-content-center float-md-end">
+        <a class="nav-link fw-bold py-1 px-0" aria-current="page" href="index.html">Home</a>
+        <a class="nav-link fw-bold py-1 px-0" aria-current="page" href="#">About</a>
+        <a class="nav-link fw-bold py-1 px-0 active" id="active_page" href="startpage.html">Start-Page</a>
+        <a class="nav-link fw-bold py-1 px-0" href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+<body>
+    <div class="info">
+        <h4 id="date"></h4>
+        <h1 class="greeting" id="brand-color"></h1>
+    </div>
+    <div class="container">
+        <div class="head">
+            <p>cd ~/<span class="blinking">_</span></p>
+        </div>
+
+        <div class="bookmarks">
+            <div class="category">
+                <div class="links">
+                    <li class="title">work</li>
+                    <li><a href="https://paulgo.io">searx</a></li>
+                    <li><a href="https://tutanota.com">tutanota</a></li>
+                    <li><a href="https://app.element.io">element</a></li>
+                    <li><a href="https://docs.helix-editor.com">helix</a></li>
+                </div>
+            </div>
+
+            <div class="category">
+                <div class="links">
+                    <li class="title">dev</li>
+                    <li><a href="https://github.com/">github</a></li>
+                    <li><a href="https://gitlab.com">gitlab</a></li>
+                    <li><a href="https://m3.material.io/">material</a></li>
+                    <li><a href="https://devdocs.io/">devdocs</a></li>
+                </div>
+            </div>
+
+            <div class="category">
+                <div class="links">
+                    <li class="title">play</li>
+                    <li><a href="https://piped.kavin.rocks">piped</a></li>
+                    <li><a href="https://efy.piped.pages.dev/">piped dev</a></li>
+                    <li><a href="https://css-tricks.com/">csstricks</a></li>
+                    <li><a href="https://netflix.com/">netflix</a></li>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+<script>
+    let $ = document.querySelector.bind(document);
+
+    function date() {
+        let currentDate = new Date();
+        let dateOptions = {
+            weekday: "long",
+            year: "numeric",
+            month: "long",
+            day: "numeric"
+        };
+        let date = currentDate.toLocaleDateString("en-GB", dateOptions);
+        $('#date').innerHTML = date;
+    }
+
+    function greet() {
+        let currentTime = new Date();
+        let greet = Math.floor(currentTime.getHours() / 6);
+        switch (greet) {
+            case 0:
+                $('.greeting').innerHTML = "Good night!";
+                break;
+            case 1:
+                $('.greeting').innerHTML = "Good morning!";
+                break;
+            case 2:
+                $('.greeting').innerHTML = "Good afternoon!";
+                break;
+            case 3:
+                $('.greeting').innerHTML = "Good evening!";
+                break;
+        }
+    }
+    date();
+    greet();
+</script>
+
+<footer class="mt-auto text-white-50">
+    <p>Page by <a href="https://ARBoyGo.github.io/" id="brand-link">ARBoyGo</a> Matrix <a href="https://matrix.to/#/@arboy2001:matrix.org" id="brand-link">Profile</a></p>
+  </footer>
+</div>
+
+
+    
+  </body>
+</html>
