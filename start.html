@@ -7,11 +7,9 @@
     <meta name="author" content="AR Designer">
     <title>ARBoyGo</title>
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="start.css">
     
 
 <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
-<link rel="javascript" href="start.js">
     
     <link href="style.css" rel="stylesheet">
   </head>
@@ -23,8 +21,8 @@
       <h3 class="float-md-start mb-0" id="brand">ARBoyGo</h3>
       <nav class="nav nav-masthead justify-content-center float-md-end">
         <a class="nav-link fw-bold py-1 px-0" aria-current="page" href="index.html">Home</a>
+        <a class="nav-link fw-bold py-1 px-0 active" id="active_page" href="start.html">Start</a>
         <a class="nav-link fw-bold py-1 px-0" aria-current="page" href="about.html">About</a>
-        <a class="nav-link fw-bold py-1 px-0 active" id="active_page" href="start.html">Start-Page</a>
         <a class="nav-link fw-bold py-1 px-0" href="contact.html">Contact</a>
       </nav>
     </div>
@@ -36,7 +34,7 @@
     </div>
 
         <div class="head">
-            <p class="command">cd ~/<span class="blinking">_</span></p>
+            <p class="command">ㅤ  cd ~/<span class="blinking">_</span></p>
         </div>
 
         <div class="bookmarks">
@@ -74,7 +72,7 @@
 </html>
 
 <script>
-    let $ = document.querySelector.bind(document);
+let $ = document.querySelector.bind(document);
 
     function date() {
         let currentDate = new Date();

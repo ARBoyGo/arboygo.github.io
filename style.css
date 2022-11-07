@@ -120,8 +120,13 @@ li {
   padding: 5px
 }
 
+
 .command {
   font-size: 30px;
+  padding-top: 0.5px;
+  padding-bottom: 0.5px;
+  border: 1px solid var(--brand-color);
+  text-align: start;
 }
 
 .blinking {
