@@ -91,3 +91,54 @@ body {
   color: #fff;
   border-bottom-color: #fff;
 }
+
+/*
+ * Start page
+ */
+
+.welcome {
+  padding-top: 10px;
+}
+
+.category {
+  display: flex;
+  flex-direction: column;
+  width: 180px;
+}
+
+.bookmarks {
+  display: flex;
+}
+
+.title {
+  font-size: 20px;
+}
+
+li {
+  font-size: 16px;
+  list-style-type: none;
+  padding: 5px
+}
+
+.command {
+  font-size: 30px;
+}
+
+.blinking {
+  animation: opacity 1s ease-in-out infinite;
+  opacity: 1;
+}
+
+@keyframes opacity {
+  0% {
+      opacity: 1;
+  }
+
+  50% {
+      opacity: 0;
+  }
+
+  100% {
+      opacity: 1;
+  }
+}
