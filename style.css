@@ -1,9 +1,9 @@
 :root {
   /* Colors */
 --brand-color : #eb4f4f;
---brand-secondary-color : darkred;
+--brand-link-color : darkred;
+--brand-sec-color : #4389d8;
 }
-
 
 
 /*
@@ -32,7 +32,7 @@
 }
 
 #brand-link:hover {
-  color: var(--brand-secondary-color);
+  color: var(--brand-link-color);
 }
 
 #brand-highlight {
@@ -64,6 +64,13 @@ body {
   font-family: "Courier New", Courier, monospace;
 }
 
+h1,h2,h3,h5,h6,a {
+  color: var(--brand-color);
+}
+p,tr,ul,li,h4 {
+  color: var(--brand-sec-color);
+}
+
 .cover-container {
   max-width: 42em;
 }
@@ -88,8 +95,8 @@ body {
 }
 
 .nav-masthead .active {
-  color: #fff;
-  border-bottom-color: #fff;
+  color: var(--brand-sec-color);
+  border-bottom-color: var(--brand-sec-color);
 }
 
 /*
