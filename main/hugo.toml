@@ -51,6 +51,7 @@ menu = [
     # Links to your socials.  Comment or delete any you don't need/use. 
     github_url = "https://github.com/arboygo"
     mastodon_url = "https://fosstodon.org/@arboy"
+    xmpp_url = "xmpp:arboy@macaw.me"
     matrix_url = "https://matrix.to/#/@arboy2001:matrix.org"
     email_url = "mailto://arboygo@duck.com"
 
