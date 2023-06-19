@@ -1,0 +1,13 @@
+{{ define "main" -}}
+<div class="post">
+  {{ partial "blog/info.html" . }}
+  {{ .Content }}
+  {{ partial "blog/navigation.html" . }}
+  {{ if or (.Site.Params.remark42) (.Site.DisqusShortname) }}
+    {{ partial "blog/comments.html" . }}
+  {{ end }}
+</div>
+{{- end }}
+{{ define "sidebar" }}
+  {{ partial "table_of_contents.html" . }}
+{{ end }}

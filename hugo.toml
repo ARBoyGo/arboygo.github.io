@@ -1,6 +1,6 @@
 baseURL = "/"
 languageCode = "en-us"
-theme = "poison"
+theme = "poison-mod"
 paginate = 10
 pluralizelisttitles = false   # removes the automatically appended "s" on sidebar entries
 
