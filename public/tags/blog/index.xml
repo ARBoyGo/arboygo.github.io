@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>blog on </title>
+    <link>/tags/blog/</link>
+    <description>Recent content in blog on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 18 Jun 2023 17:38:19 +0530</lastBuildDate><atom:link href="/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First blog</title>
+      <link>/blog/my-first-post/</link>
+      <pubDate>Sun, 18 Jun 2023 17:38:19 +0530</pubDate>
+      
+      <guid>/blog/my-first-post/</guid>
+      <description>&lt;h2 id=&#34;welcome-to-my-blog&#34;&gt;Welcome to my blog&lt;/h2&gt;
+&lt;p&gt;Hey, I&amp;rsquo;ll &lt;strong&gt;try&lt;/strong&gt; to write &lt;strong&gt;blogs&lt;/strong&gt;, I want to share &lt;strong&gt;some informations.&lt;/strong&gt;
+And I want to make &lt;em&gt;friends and learn together&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Learn more &lt;a href=&#34;/about/&#34;&gt;about me&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
