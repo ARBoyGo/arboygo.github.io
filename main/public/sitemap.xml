@@ -2,28 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/</loc>
+    <loc>https://arboy.is-a.dev/</loc>
     <lastmod>2023-06-18T17:38:19+05:30</lastmod>
   </url><url>
-    <loc>/tags/blog/</loc>
+    <loc>https://arboy.is-a.dev/tags/blog/</loc>
     <lastmod>2023-06-18T17:38:19+05:30</lastmod>
   </url><url>
-    <loc>/blog/</loc>
+    <loc>https://arboy.is-a.dev/blog/</loc>
     <lastmod>2023-06-18T17:38:19+05:30</lastmod>
   </url><url>
-    <loc>/blog/my-first-post/</loc>
+    <loc>https://arboy.is-a.dev/blog/my-first-post/</loc>
     <lastmod>2023-06-18T17:38:19+05:30</lastmod>
   </url><url>
-    <loc>/tags/intro/</loc>
+    <loc>https://arboy.is-a.dev/tags/intro/</loc>
     <lastmod>2023-06-18T17:38:19+05:30</lastmod>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>https://arboy.is-a.dev/tags/</loc>
     <lastmod>2023-06-18T17:38:19+05:30</lastmod>
   </url><url>
-    <loc>/about/</loc>
+    <loc>https://arboy.is-a.dev/about/</loc>
   </url><url>
-    <loc>/about/about/</loc>
+    <loc>https://arboy.is-a.dev/about/about/</loc>
   </url><url>
-    <loc>/series/</loc>
+    <loc>https://arboy.is-a.dev/series/</loc>
   </url>
 </urlset>

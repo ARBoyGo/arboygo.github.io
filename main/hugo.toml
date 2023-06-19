@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://arboy.is-a.dev/"
 languageCode = "en-us"
 theme = "poison-mod"
 paginate = 10
