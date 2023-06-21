@@ -1,7 +1,7 @@
 {{ define "main" -}}
 <div class="post">
   {{ partial "blog/info.html" . }}
-  {{ .Content }}
+  {{- partial "anchored_headings.html" .Content -}}
   {{ partial "blog/navigation.html" . }}
   {{ if or (.Site.Params.remark42) (.Site.DisqusShortname) }}
     {{ partial "blog/comments.html" . }}

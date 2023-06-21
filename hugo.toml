@@ -33,7 +33,7 @@ menu = [
 
         # Example:
         # ... /content/about/about.md
-        {Name = "About", URL = "/about/", HasChildren = false},
+        {Name = "About", URL = "/about", HasChildren = false},
         
         # ... /content/foo/_index.md
         # {Name = "Foo", URL = "/foo/", HasChildren = false},
