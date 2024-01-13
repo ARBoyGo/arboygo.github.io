@@ -69,3 +69,8 @@ Let's consider your name is **Isaac Newton** with the email address **isaacnewto
 
 Now imagine, How many emails you have? One but with so many aliases. If anyone send your email in these ways, Still you'll receive it and not anyone else.
 It's a good way to manage your Mail box. 
+
+## Additional Sources
+
+- [Everyone Wants Your Email Address. Think Twice Before Sharing It. - The New York Times](https://www.nytimes.com/2023/01/25/technology/personaltech/email-address-digital-tracking.html)
+- [Best Secure Email Services For Privacy Concerned People - It's FOSS](https://itsfoss.com/secure-private-email-services/)
