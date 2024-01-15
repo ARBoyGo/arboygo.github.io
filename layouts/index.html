@@ -1,4 +1,11 @@
 {{ define "main" -}}
+  <script src="https://tfpb.techforpalestine.org/lib/banner.min.js"></script>
+  <script>
+    TFPBanner.create({
+      theme: "auto",
+      fixed: false,
+    });
+  </script>
 <div class="posts">
     {{ range where .Paginator.Pages "Section" "eq" "blog" }}
     <article class="post">
